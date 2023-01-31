@@ -1,0 +1,13 @@
+composer.phar
+# /vendor/
+# vendor
+app/composer.lock
+# app/vendor
+# Bee-Framework-1.5.0.zip
+# db_beeframework.sql
+NiceAdmin-pro
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+prepros.config
