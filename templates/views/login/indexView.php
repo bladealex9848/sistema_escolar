@@ -8,9 +8,9 @@
                 <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                     <div class="d-flex justify-content-center py-4">
-                        <a href="index.html" class="logo d-flex align-items-center w-auto">
-                            <img src="assets/img/logo.png" alt="">
-                            <span class="d-none d-lg-block">NiceAdmin</span>
+                        <a href="home" class="logo d-flex align-items-center w-auto">
+                            <img src="<?php echo get_logo(); ?>" alt="">
+                            <span class="d-none d-lg-block"><?php echo get_sitename(); ?></span>
                         </a>
                     </div><!-- End Logo -->
 
@@ -46,8 +46,7 @@
 
                                 <div class="col-12">
                                     <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="remember" value="true"
-                                            id="rememberMe">
+                                        <input class="form-check-input" type="checkbox" name="remember" value="true" id="rememberMe">
                                         <label class="form-check-label" for="rememberMe">Recordar</label>
                                     </div>
                                 </div>
@@ -55,8 +54,7 @@
                                     <button class="btn btn-primary w-100" type="submit">Ingresar</button>
                                 </div>
                                 <div class="col-12">
-                                    <p class="small mb-0">¿Olvidaste tu contraseña? <a
-                                            href="pages-register.html">Recordarla</a></p>
+                                    <p class="small mb-0">¿Olvidaste tu contraseña? <a href="pages-register.html">Recordarla</a></p>
                                 </div>
                             </form>
 

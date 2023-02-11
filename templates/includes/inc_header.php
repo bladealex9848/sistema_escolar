@@ -35,4 +35,15 @@
 
     <!-- Empieza el contenido principal -->
     <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1><?php echo isset($d->title) ? $d->title : null; ?></h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="dashboard">Inicio</a></li>
+                    <li class="breadcrumb-item active"><?php echo isset($d->title) ? $d->title : null; ?></li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+
         <!-- ends inc_header.php -->

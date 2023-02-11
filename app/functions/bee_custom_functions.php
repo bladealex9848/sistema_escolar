@@ -24,7 +24,7 @@ function is_root($rol)
 
 function is_admin($rol)
 {
-    return in_array($rol, ['admin']);
+    return in_array($rol, ['admin', 'root']);
 }
 
 function is_profesor($rol)

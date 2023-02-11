@@ -1,6 +1,7 @@
-<?php 
+<?php
 
-class homeController extends Controller {
+class homeController extends Controller
+{
   function __construct()
   {
   }
@@ -8,9 +9,10 @@ class homeController extends Controller {
   function index()
   {
     $data =
-    [
-      'title' => 'Home'
-    ];
+      [
+        'title' => 'Home',
+        'slug' => 'home'
+      ];
 
     View::render('index', $data);
   }

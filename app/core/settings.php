@@ -56,7 +56,7 @@ define('SITE_CHARSET', 'UTF-8');
 define('SITE_NAME', 'Aprende');    // Nombre del sitio
 define('SITE_VERSION', '1.0.0');          // Versión del sitio
 define('SITE_LOGO', 'logo.png');       // Nombre del archivo del logotipo base
-define('SITE_FAVICON', 'favicon.ico');    // Nombre del archivo del favicon base
+define('SITE_FAVICON', 'favicon.png');    // Nombre del archivo del favicon base
 define('SITE_DESC', 'Bee framework.'); // Descripción meta del sitio
 
 // Sesiones de usuario persistentes
